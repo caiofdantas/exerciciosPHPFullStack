@@ -15,13 +15,13 @@
     <button><a href="exercicio06.php">Exercício06</a></button>
     <button><a href="exercicio07.php">Exercício07</a></button>
     <button><a href="exercicio08.php">Exercício08</a></button>
-    <button>Exercício09</button>
-    <button>Exercício10</button>
-    <button>Exercício11</button>
-    <button>Exercício12</button>
-    <button>Exercício13</button>
-    <button>Exercício14</button>
-    <button>Exercício15</button>
+    <button><a href="exercicio09.php">Exercício09</a></button>
+    <button><a href="exercicio10.php">Exercício10</a></button>
+    <button><a href="exercicio11.php">Exercício11</a></button>
+    <button><a href="exercicio12.php">Exercício12</a></button>
+    <button><a href="exercicio13.php">Exercício13</a></button>
+    <button><a href="exercicio14.php">Exercício14</a></button>
+    <button><a href="exercicio15.php">Exercício15</a></button>
     <button>Exercício16</button>
     <button>Exercício17</button>
     <button>Exercício18</button>

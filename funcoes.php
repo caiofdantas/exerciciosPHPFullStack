@@ -123,6 +123,80 @@
         return "A Média é $media";
     }
 
+    //9.Leia números até que a soma ultrapasse 100.
+    function ultraPasse($num1,$num2,$num3,$num4,$num5){
+        $soma = 0;
+        $soma = $soma + $num1 + $num2 + $num3 + $num4 + $num5;
+        if($soma > 100){
+            return "Ops passou de 100: $soma"; 
+        }else{
+            return"Essa é a Soma $soma";
+        }
+    }//fim método
 
+    //10.Solicite senhas até que uma válida seja informado
+    function confimarSenha($senha){
+        $senhabd = 1010;
+        if($senhabd == $senha){
+            return "Senha Correta";
+        }else{
+            return "Senha Incorreta";
+        }//fim if
+    }//fim metodo
+    
+    //11.Classifique uma pessoa com base na idade: Criança, jovem, adulto,idoso.
+    function classificarIdade($num1){
+        if($num1 <= 12){
+            return "Criança";
+        }else if($num1 <= 17){
+            return "Jovem";
+        }else if($num1 <= 60){
+            return"Adulto";
+        }else{
+            return"Idoso";
+        }//fim if
+    }//fim metodo 
+    
+    //12.Verifique se um número é par ou impar.
+    function verificarPar($num1){
+        if($num1 % 2 == 0 ){
+            return "Par";
+        }else{
+            return "Impar";
+        }//fim if
+    }//fim metodo
 
+    //13.Leia dois números e exiba qual é o maior
+    function compararMaior($num1,$num2){
+        if($num1 > $num2){
+            return "Esse $num2 vem primeiro que esse $num1";
+        }else{
+            return "Esse $num1 vem primeiro que esse $num2";
+        }// fim if
+    } //fim metodo
+
+    //14.Imprima os números de 1 a 100 
+    function ImprimaNum($inicio,$fim){
+        for($i = $inicio;$i <= $fim;$i++){
+            echo "<br>".$i;
+        }//fim if
+    }//fim metodo 
+
+    //15.Verifique se um número é múltiplo de 3 e 5 ao mesmo tempo.
+    function veriNum($num1){
+        if(($num1 % 3 == 0) && ($num1 % 5 ==0)){
+            return "É mutiplo de 3 a 5.";
+        }else{
+            return "Não é mutiplo de 3 a 5";
+        }
+
+    }
+    //16.Leia três valores e verifique se formam um triângulo. Classifique como equilátero,isósceles ou escaleno.
+    function triangulo($num1,$num2,$num3){
+        if(($num1 > $num2) && ($num1 > $num3)){
+            return" "
+        }
+
+    }
+    
 ?>
