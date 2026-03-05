@@ -193,10 +193,103 @@
     }
     //16.Leia três valores e verifique se formam um triângulo. Classifique como equilátero,isósceles ou escaleno.
     function triangulo($num1,$num2,$num3){
-        if(($num1 > $num2) && ($num1 > $num3)){
-            return" "
-        }
-
-    }
+        if($num1 == $num2 && $num1 == $num3 && $num2 == $num3){
+            return"Equilário";
+        }else if($num1 == $num2 || $num1==$num3 || $num2==$num3){
+            return"Isósceles";
+        }else{
+            return"Escaleno";
+        }//fim if
+    }//fim metodo
     
-?>
+    //17.Leia idades com enquanto até uma idade negativa ser digitada. Mostre a média 
+    function Idademedia($num1,$num2,$num3,$num4,$num5){
+        $soma = 0;
+        $soma = $soma + $num1 + $num2 + $num3 + $num4 + $num5;
+        $media = $soma / 5;
+        return"A média é $media";
+    }
+
+    //18.Leia 10 valores e calcule a média. Mostre a média.
+    function media($num1,$num2,$num3,$num4,$num5,$num6,$num7,$num8,$num9,$num10){
+        $soma = 0;
+        $soma = $soma + $num1 + $num2 + $num3 + $num4 + $num5 + $num6 + $num7 + $num8 + $num9 + $num10;
+        $media = $soma / 10;
+        return"A média é $media";
+    }
+    //19.Calcule o fatorial de um número com enquanto.
+    function fatorial($num){
+        $fat = 1; 
+        $i = 1;
+        while($i <= $num){
+            $fat = $fat * $i;
+            $i++;
+        }
+        return"O Fatorial $fat.";
+    }
+    //20.Receba um número de 1 a 7 e mostre o dia da semana correspondente(use)
+    function diaSemana($num){
+        switch($num){
+            case 1;
+                return "Domingo";
+                break;//encerra o switch
+            case 2;
+                return "Segunda-Feira";
+                break;
+            case 3; 
+                return "Terça-Feira";
+                break;
+            case 4;
+                return "Quarta-Feira";
+                break;
+            case 5;
+                return "Quinta-Feira";
+                break;
+            case 6;
+                return "Sexta-Feira";
+                break;
+            case 7;
+                return "Sabado";
+                break;
+            default;
+                return"O número informado é inválido!";
+                break;
+             }//fim do switch
+    }//fim do método
+    
+    //21.Leia o código de um produto (1 a 5)e mostre seu nome e preço.
+    function Compra($num1){
+        if($num1 == 0){
+            return "Pão Frances R$0,99";
+        }else if($num1 == 1 ){
+            return "Pão de Alho R$5,99";
+        }else if($num1 == 2){
+            return "Misto quente R$ 7,99";
+        }else if($num1 == 3){
+            return "Achocolatado R$ 5,99";
+        }else if($num1 == 4){
+            return "Baguete R$ 14,99";
+        }else if ($num1 > 5){
+            return "ops produto não encontrado";
+        }
+    }
+    //22.Crie uma matriz identidade 4x4
+    function mostrarMatriz($matriz){
+        for($linha=0;$linha<=3;$linha++){
+            for($coluna=0;$coluna<=3;$coluna++){
+                if($linha==$coluna){
+                        $matriz[$linha][$coluna] = 1;
+                    }else{
+                        $matriz[$linha][$coluna]=0;
+       
+                    }
+               
+                echo $matriz[$linha][$coluna]." ";
+            }
+            echo "<br>";
+        }  
+    }
+
+    //23.leia 10 números inteiros e armazene em um vetor. Mostre os pares.
+    function mostrarvetor($vetor)
+?>  
