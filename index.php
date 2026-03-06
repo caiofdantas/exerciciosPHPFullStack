@@ -30,9 +30,9 @@
     <button><a href="exercicio21.php">Exercício21</a></button>
     <button><a href="exercicio22.php">Exercício22</a></button>
     <button><a href="exercicio23.php">Exercício23</a></button>
-    <button>Exercício24</button>
-    <button>Exercício25</button>
-    <button>Exercício26</button>
+    <button><a href="exercicio24.php">Exercício24</a></button>
+    <button><a href="exercicio25.php">Exercício25</a></button>
+    <button><a href="exercicio26.php">Exercício26</a></button>
     <button>Exercício27</button>
     <button>Exercício28</button>
     <button>Exercício29</button>
